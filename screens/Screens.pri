@@ -1,0 +1,2 @@
+RESOURCES += \
+    $$PWD/Screens.qrc

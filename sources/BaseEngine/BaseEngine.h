@@ -1,4 +1,5 @@
 #include <QQmlApplicationEngine>
+#include <memory>
 
 class BaseEngine{
 public:
@@ -12,4 +13,5 @@ private:
 
 private:
     QQmlApplicationEngine m_engine;
+    std::unique_ptr<QObject> m_qmlObject;
 };

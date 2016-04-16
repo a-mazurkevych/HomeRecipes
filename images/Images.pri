@@ -1,2 +1,0 @@
-RESOURCES += \
-    $$PWD/Images.qrc

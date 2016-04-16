@@ -79,14 +79,14 @@ ApplicationWindow {
 
                     Image {
                         id: menuOpen
-                        source: "qrc:/image/Home/btn_menu.png"
+                        source: "qrc:/HomePage/btn_menu.png"
                         anchors.fill: parent
                         visible: bMenuVisible
                     }
 
                     Image {
                         id: menuClose
-                        source: "qrc:/image/Home/btn_close.png"
+                        source: "qrc:/HomePage/btn_close.png"
                         anchors.fill: parent
                         visible: !bMenuVisible
                     }

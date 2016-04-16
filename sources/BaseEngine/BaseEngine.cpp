@@ -11,5 +11,5 @@ BaseEngine::~BaseEngine()
 
 void BaseEngine::Init()
 {
-    m_engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
+    m_engine.load(QUrl(QStringLiteral("qrc:/main/engine.qml")));
 }

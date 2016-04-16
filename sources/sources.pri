@@ -1,7 +1,11 @@
+INCLUDEPATH += $$PWD
+
 SOURCES += \
     $$PWD/main.cpp \
-    $$PWD/Home/Home.cpp
+    $$PWD/BaseEngine/BaseEngine.cpp \
+    $$PWD/Home/HomePage.cpp
 
 HEADERS += \
-    $$PWD/Home/Home.h
+    $$PWD/BaseEngine/BaseEngine.h \
+    $$PWD/Home/HomePage.h
 

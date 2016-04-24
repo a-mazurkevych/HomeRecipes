@@ -2,4 +2,7 @@
     <qresource prefix="/main">
         <file>engine.qml</file>
     </qresource>
+    <qresource prefix="/HomePage">
+        <file>HomePage.qml</file>
+    </qresource>
 </RCC>
